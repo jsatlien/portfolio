@@ -1,7 +1,7 @@
 <?php
 
 	// Contact
-	$to = 'web-master72@yandex.ru';
+	$to = 'jackstorrs8@gmail.com';
 	$subject = 'Subject here...';
 
 	if(isset($_POST['c_name']) && isset($_POST['c_email']) && isset($_POST['c_message'])){
@@ -11,13 +11,13 @@
 
 		if (mail($to, $subject, $message, $from)) {
 			$result = array(
-				'message' => 'Thanks for contacting us!',
+				'message' => 'Thanks for contacting me! I will respond within the next business day.',
 				'sendstatus' => 1
 				);
 			echo json_encode($result);
 		} else {
 			$result = array(
-				'message' => 'Sorry, something is wrong',
+				'message' => 'Sorry, something is wrong. Please send an email to jackstorrs8@gmail.com or feel free to contact me by phone at 404-357-8809. Thanks!',
 				'sendstatus' => 1
 				);
 			echo json_encode($result);
