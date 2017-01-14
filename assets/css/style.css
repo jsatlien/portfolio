@@ -1244,3 +1244,18 @@ font-size: 14px;
 .callout-decription {
 	font-family: 'Maven Pro', sans-serif;
 }
+
+.portfolio-item-desc a {
+    font-size: 13px;
+    opacity: 1;
+    position: relative;
+    z-index: 1001;
+}
+
+.github-link {
+	color: #4D93D0;
+}
+
+.github-link:hover {
+	color: #8CB0D2;
+}
