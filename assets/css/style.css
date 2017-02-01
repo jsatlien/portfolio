@@ -1201,8 +1201,11 @@ font-size: 14px;
 }
 
 #about-image {
-	height: 300px;
-	width: 400px;
+	min-height: 300px;
+	min-width: 300px;
+	max-height: 300px;
+	max-width: 300px;
+
 	/*margin: 50px auto;*/
 }
 
