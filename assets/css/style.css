@@ -436,7 +436,7 @@ textarea.form-control {
 
 .module-subtitle {
 	font-family: 'Tangerine', cursive;
-	font-size: 20px;
+	font-size: 23px;
 }
 
 .module-line {
@@ -1222,14 +1222,14 @@ font-size: 14px;
 	flex-direction: row;
 }
 
-.hello {
-	font-family: 'Allerta Stencil', sans-serif;
-	font-size: 16px;
+.intro-line {
+	font-size: 30px;
+	/*font-family: 'Press Start 2P', cursive;*/
+	font-family: 'Monofett', cursive;
+	font-weight: 100;
+
 }
-.who-creates {
-	font-family: 'Allerta Stencil', sans-serif;
-	font-size: 16px;
-}
+
 
 #twitter {
 	height: 100px;
@@ -1273,4 +1273,9 @@ font-size: 14px;
 #about-me {
 	font-family: 'Maven Pro', sans-serif;
 	font-size: 14px;
+}
+
+#resume-download {
+	border: 1px solid #F6F6F6;
+	border-bottom: none;
 }
